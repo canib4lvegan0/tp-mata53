@@ -1,4 +1,4 @@
 /backup
 .idea
 ./git
-/output/*
+output/*
