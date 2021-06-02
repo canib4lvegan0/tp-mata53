@@ -1,0 +1,10 @@
+digraph "[step 4] - Primary Path 2 in G_3" {
+	A [color=green shape=doublecircle]
+	F [color=orange shape=doublecircle]
+	node [color=black shape=circle]
+	A -> C
+	C -> D
+	D -> B
+	B -> E
+	E -> F
+}

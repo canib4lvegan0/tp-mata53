@@ -1,0 +1,11 @@
+digraph "[step 5_5] - Final G - Both paths (P1 and P2)" {
+	A [color=green shape=doublecircle]
+	F [color=orange shape=doublecircle]
+	node [color=black shape=circle]
+	C -> D [label=2]
+	D -> F [label=1]
+	A -> C [label=2]
+	A -> B [label=1]
+	E -> F [label=2]
+	B -> E [label=2]
+}

@@ -44,7 +44,7 @@ if __name__ == '__main__':
         print(header)
         print(menu)
 
-        if (op := input('\n' + MARGIN * 2 + 'Type option: ')) == '1':
+        if (op := input('\n' + MARGIN + 'Type option: ')) == '1':
             filename = DEFAULT_GRAPHS[0]
         elif op == '2':
             filename = DEFAULT_GRAPHS[1]
@@ -66,7 +66,6 @@ if __name__ == '__main__':
                               f'Answer with [A or F]: ')
 
         print(BREAK_LINE * 2 + NEW_PAGE)
-        # print("\n" * 130)
         # Build graph
         G = SuurballeGraph(name=filename[:-4:])
         G.add_edges(edges)

@@ -1,0 +1,8 @@
+digraph "[step 5_4] - Final Path 2 in G_2" {
+	A [color=green shape=doublecircle]
+	F [color=orange shape=doublecircle]
+	node [color=black shape=circle]
+	A -> C
+	C -> D
+	D -> F
+}

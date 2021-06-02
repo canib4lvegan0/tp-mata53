@@ -1,0 +1,16 @@
+digraph "[step 3] - G_3 (G - P1) - Updated edges" {
+	A [color=green shape=doublecircle]
+	F [color=orange shape=doublecircle]
+	node [color=black shape=circle]
+	C -> A [label=4]
+	C -> D [label=2]
+	A -> C [label=0]
+	E -> F [label=2]
+	E -> B [label=4]
+	F -> E [label=2]
+	F -> D [label=0]
+	D -> C [label=2]
+	D -> B [label=0]
+	B -> E [label=0]
+	B -> A [label=0]
+}

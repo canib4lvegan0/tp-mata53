@@ -1,0 +1,8 @@
+digraph "[step 1] - Primary Path 1" {
+	A [color=green shape=doublecircle]
+	F [color=orange shape=doublecircle]
+	node [color=black shape=circle]
+	A -> B
+	B -> D
+	D -> F
+}
