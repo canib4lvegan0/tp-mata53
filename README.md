@@ -15,7 +15,7 @@ DCC - UFBA, 2021.1
 
 **Tema escolhido:** Suurballe's Algorithm.
 
-**Link do vídeo-demonstração:** 
+**Link do vídeo-demonstração:** https://drive.google.com/file/d/1Re7qOdz2nyeGkZUMzAs6eJnRXO0kX4sI/view?usp=sharing
 ___
 ## 2. Algoritmo de Suurballe
 Concebido por John W. Suurballe  em 1974 (--daí o nome),   Algoritmo de Suurballe é um algoritmo para encontrar 2-disjuntos caminhos em um grafo direcionado e com ponderação não-negativa, fazendo com que ambos caminhos tenham o mínimo comprimento e conectem o mesmo par de vértice [1].
@@ -78,6 +78,7 @@ ____
 
 3. Executando:
 ``` $ python main.py```
+   
 ____
 ## 5. Referências
 * [1] https://en.wikipedia.org/wiki/Suurballe%27s_algorithm
